@@ -1,0 +1,12 @@
+build/
+external/
+logs/*
+*.pyc
+doc/*
+*.config
+*.creator
+*.files
+*.includes
+html/*
+latex/*
+./vscode/*
