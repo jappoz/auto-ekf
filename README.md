@@ -19,9 +19,12 @@ This package should be fetched at configure time though.
 ### Tests
 Tests have been set up using [Catch2](https://github.com/catchorg/Catch2) library. 
 Anyway, no test has been written so far. 
+
 auto-ekf is basically a wrapper around Eigen and autodiff which are both well tested so ... 
+
 Fuzz testing could be useful but it does not seem to work with gcc which is the compiler I am currently using.
 
 ### Examples
 The examples use the measurements data (lidar + radar) from Udacity Extended Kalman Filter repository that I have found online.
+
 These data are used only for validation purposes; this work has nothing to do with the Udacity course about autonomous driving.
